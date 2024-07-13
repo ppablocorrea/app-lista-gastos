@@ -1,16 +1,9 @@
 import { Helmet } from "react-helmet";
-import {
-  Header,
-  Titulo,
-  ContenedorHeader,
-  ContenedorBotones,
-} from "../elementos/Header";
+import { Header, Titulo, ContenedorHeader } from "../elementos/Header";
 import Boton from "../elementos/Boton";
 import {
-  ContenedorFiltros,
   Formulario,
   Input,
-  InputGrande,
   ContenedorBoton,
 } from "../elementos/ElementosDeFormulario";
 import { ReactComponent as SvgLogin } from "../imagenes/login.svg";
@@ -43,7 +36,7 @@ function InicioSesion() {
         <Input type="email" name="email" placeholder="Correo Electrónico" />
         <Input type="password" name="password" placeholder="Contraseña" />
         <ContenedorBoton>
-          <Boton as="button" type="submit" primario>
+          <Boton as="button" type="submit" $primario>
             Iniciar Sesión
           </Boton>
         </ContenedorBoton>
