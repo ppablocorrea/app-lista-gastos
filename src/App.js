@@ -6,6 +6,7 @@ import {
   Titulo,
 } from "./elementos/Header";
 import Boton from "./elementos/Boton";
+import BotonCerrarSesion from "./componentes/BotonCerrarSesion";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <ContenedorBotones>
             <Boton to="/categorias">Categorías</Boton>
             <Boton to="/lista">Lista de Gastos</Boton>
-            <Boton>X</Boton>
+            <BotonCerrarSesion></BotonCerrarSesion>
           </ContenedorBotones>
         </ContenedorHeader>
       </Header>
