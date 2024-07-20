@@ -111,7 +111,7 @@ function InicioSesion() {
           onChange={handleChange}
         />
         <ContenedorBoton>
-          <Boton as="button" type="submit" $primario>
+          <Boton as="button" type="submit" primario={"true"}>
             Iniciar Sesión
           </Boton>
         </ContenedorBoton>

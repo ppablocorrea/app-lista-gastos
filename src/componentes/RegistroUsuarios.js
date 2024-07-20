@@ -140,7 +140,7 @@ function RegistroUsuarios() {
           onChange={handleChange}
         />
         <ContenedorBoton>
-          <Boton as="button" type="submit" $primario>
+          <Boton as="button" type="submit" primario={"true"}>
             Crear Cuenta
           </Boton>
         </ContenedorBoton>
