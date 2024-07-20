@@ -1,6 +1,6 @@
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
-import { format, formatDistance, formatRelative, subDays } from "date-fns";
+import { format } from "date-fns";
 import { es } from "date-fns/locale";
 import styled from "styled-components";
 import theme from "../theme";
