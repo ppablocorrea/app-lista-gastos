@@ -8,6 +8,7 @@ import {
 import Boton from "./elementos/Boton";
 import BotonCerrarSesion from "./componentes/BotonCerrarSesion";
 import FormularioGasto from "./componentes/FormularioGasto";
+import BarraTotalGastado from "./componentes/BarraTotalGastado";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </ContenedorHeader>
       </Header>
       <FormularioGasto />
+      <BarraTotalGastado />
     </>
   );
 }
